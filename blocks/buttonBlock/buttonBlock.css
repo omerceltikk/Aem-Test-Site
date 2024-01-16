@@ -1,0 +1,35 @@
+
+.buttonblock > div{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.cards-container > .default-content-wrapper{
+  padding-bottom: 0;
+}
+#speakers{
+  padding-bottom: 36px;
+}
+.buttonblock > div > .button-container > .button{
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--text-color);
+  background-color: var(--dark-color);
+  border: 1px solid var(--text-color);
+  box-shadow: 0 0 0;
+  padding: 12px 32px;
+  margin-bottom: 36px;
+}
+.active{
+  background-color: var(--text-color) !important;
+  color: var(--dark-color) !important;
+}
+
+@media (width <= 600px) {
+  .buttonblock > div{
+    flex-direction: column;
+    align-self: center;
+    padding-top: 70px;
+    align-items: center;
+  }
+}

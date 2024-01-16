@@ -47,3 +47,6 @@ main .cards-card-body > strong {
 main .cards-card-body {
   font-size: 13px;
 }
+main .default-content-wrapper{
+  font-size: 100px;
+}

@@ -54,7 +54,8 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  color: var(--text-color);
+  font-weight: bold;
 }
 
 /* hamburger */
@@ -175,7 +176,7 @@ header nav .nav-sections ul  {
 }
 
 header nav .nav-sections ul > li {
-  font-weight: 700;
+  font-weight: bold;
 }
 
 header nav .nav-sections ul > li > ul {
@@ -272,4 +273,15 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+.nav-brand > .default-content-wrapper , .nav-sections > .default-content-wrapper , .nav-tools > .default-content-wrapper{
+ padding-bottom: 0 ;
+}
+.default-content-wrapper > ul > li {
+  font-weight: bold !important;
+  font-size: 14px;
+}
+.default-content-wrapper > picture > img {
+  margin-right: 110px;
 }
