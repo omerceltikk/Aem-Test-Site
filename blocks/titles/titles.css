@@ -45,3 +45,6 @@ main .titles-wrapper {
     top: 100px;
   }
 }
+.titles > div:nth-child(2) > div > picture > img{
+  cursor: pointer;
+}
