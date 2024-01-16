@@ -247,7 +247,7 @@ main .section.highlight {
 .headercontent > div{
   position: relative;
 }
-.headercalendar > div {
+.tickets > div {
   display: flex;
   text-align: center;
   gap: 12px;
@@ -255,7 +255,7 @@ main .section.highlight {
   bottom: 280px;
   left: 320px;
 }
-.headercalendar > div > div{
+.tickets > div > div{
   display: flex;
   flex-direction: column;
 background: #232B76 0% 0% no-repeat padding-box;
@@ -263,18 +263,18 @@ opacity: 0.3;
 width: 85px;
 height: 94px;
 }
-.headercalendar > div > div > p:first-child{
+.tickets > div > div > p:first-child{
   font-size: 37px;
   color: var(--dark-color);
   margin: 0;
 }
-.headercalendar > div > div > p:last-child{
+.tickets > div > div > p:last-child{
   font-size: 19px;
   color: var(--dark-color);
   margin: 0;
 }
 @media (width <= 1200px) {
-  .headercalendar > div > div{
+  .tickets > div > div{
     display: none;
   }
 }
