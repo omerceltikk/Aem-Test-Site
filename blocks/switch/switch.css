@@ -1,5 +1,5 @@
 
-.buttonblock > div{
+.switch > div{
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -10,7 +10,7 @@
 #speakers{
   padding-bottom: 36px;
 }
-.buttonblock > div > .button-container > .button{
+.switch > div > .button-container > .button{
   font-size: 17px;
   font-weight: bold;
   color: var(--text-color);
@@ -26,7 +26,7 @@
 }
 
 @media (width <= 600px) {
-  .buttonblock > div{
+  .switch > div{
     flex-direction: column;
     align-self: center;
     padding-top: 70px;
