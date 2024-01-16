@@ -16,18 +16,17 @@ main .certified-container{
 .certified > ul > li{
   display: flex;
   justify-content: start;
-  align-items: start;
+  align-items: normal;
   position: relative;
 }
 
 .certified .certified-card-body {
   margin: 16px;
-  text-align: center;
   font-size: 15px;
   flex-direction: column;
 }
 
-.cards .cards-card-image {
+.cards .certified-card-image {
   line-height: 0;
   display: flex;
   justify-content: center;
@@ -48,6 +47,7 @@ main .certified-container{
 }
 .certified-card-body > p{
   margin: 0;
+  z-index: 15;
 }
 .certified-card-body > p:first-child{
   font-size: 27px;
@@ -62,9 +62,9 @@ main .certified-container{
   height: 64px;
   position: absolute;
   background-color: var(--card-circle-color);
-  top:  -10px;
+  top:  5px;
   left: 60px;
-  z-index: -100;
+  z-index: 0;
   border-radius: 100%;
   content: "";
 }

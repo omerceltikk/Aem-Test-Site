@@ -242,7 +242,7 @@ main .webinar-container{
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: var(--light-color);
+  background-color: var(--secondary-background-color);
 }
 .headercontent > div{
   position: relative;

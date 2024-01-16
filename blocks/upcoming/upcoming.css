@@ -1,9 +1,7 @@
 
 main .upcoming-container{
-  background-color: var(--secondary-background-color);
   padding-bottom: 160px;
 }
-
 
 .upcoming > ul {
   list-style: none;
