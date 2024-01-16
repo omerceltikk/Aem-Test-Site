@@ -1,9 +1,9 @@
-main .certifiedareacards-container{
+main .certified-container{
   background-color: var(--dark-color);
   padding: 130px 0;
 }
 
-.certifiedareacards > ul {
+.certified > ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -13,14 +13,14 @@ main .certifiedareacards-container{
   grid-template-columns: 1fr 1fr 1fr;
 
 }
-.certifiedareacards > ul > li{
+.certified > ul > li{
   display: flex;
   justify-content: start;
   align-items: start;
   position: relative;
 }
 
-.certifiedCards .certifiedCards-card-body {
+.certified .certified-card-body {
   margin: 16px;
   text-align: center;
   font-size: 15px;
@@ -41,23 +41,23 @@ main .certifiedareacards-container{
   border-radius: 100%;
 }
 
-.certifiedCards-card-body{
+.certified-card-body{
   display: flex;
   flex-direction: column;
   margin-left: 24px;
 }
-.certifiedCards-card-body > p{
+.certified-card-body > p{
   margin: 0;
 }
-.certifiedCards-card-body > p:first-child{
+.certified-card-body > p:first-child{
   font-size: 27px;
   color: var(--text-color);
   font-weight: bold;
 }
-.certifiedCards-card-body > p:last-child{
+.certified-card-body > p:last-child{
   font-size: 14px;
 }
-.certifiedCards-card-body::before{
+.certified-card-body::before{
   width: 64px;
   height: 64px;
   position: absolute;
@@ -69,13 +69,13 @@ main .certifiedareacards-container{
   content: "";
 }
 @media (width <= 1200px) {
-  .certifiedareacards > ul { 
+  .certified > ul { 
     grid-template-columns: 1fr 1fr ;
   }
   
 }
 @media (width <= 600px) {
-  .certifiedareacards > ul { 
+  .certified > ul { 
     grid-template-columns: 1fr ;
   }
 }
